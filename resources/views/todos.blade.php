@@ -15,7 +15,8 @@
 
 
   @foreach($todos as $todo)
-    {{$todo->todo}} <a href="{{route('todo.delete', ['id'=> $todo->id])}}" type="button" class="button btn btn-danger" name="button"> X </a>
+    {{$todo->todo}} <a href="{{route('todo.delete', ['id'=> $todo->id])}}" type="button" class="button btn btn-danger btn-md" name="button"> X </a>
+    <a href="{{route('todo.update', ['id'=> $todo->id])}}" type="button" class="button btn btn-info btn-md" name="button"> UPDATE </a>
     <hr>
   @endforeach
 

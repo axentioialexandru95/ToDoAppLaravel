@@ -1,6 +1,7 @@
 @extends('layout')
 @section('content')
-
-  <h1>New page for us</h1>
+  <br>
+  <hr>
+  <h1>ETST</h1>
 
 @stop
